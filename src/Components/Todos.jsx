@@ -29,13 +29,13 @@ const Todos = () => {
             />
             <div className="mt-6 flex-shrink-0 flex">
               <img
-                src="src/images/check-mark.png" // Replace with your image path
+                src="public/static/images/check-mark.png" // Replace with your image path
                 alt="Icon 1"
                 className="p-2 bg-green-500 hover:bg-green-600 border-2 border-green-500 rounded-l h-[55px] w-[3rem] cursor-pointer object-contain" // Adjust height to match input, add margin and cursor
                 onClick={() => Toggle(todo.id)}
               />
               <img
-                src="src/images/close.png" // Replace with your image path
+                src="public/static/images/close.png" // Replace with your image path
                 alt="Icon 2"
                 className="p-2 bg-red-500 hover:bg-red-700 border-red-500 border-2 rounded h-[55px] w-[2.8rem] cursor-pointer object-contain" // Adjust height to match input, add margin and cursor
                 onClick={() => deleteTask(todo.id)}
